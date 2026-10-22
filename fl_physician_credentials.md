@@ -130,19 +130,8 @@ Every query run is listed with its exact URL/form fields, UTC retrieval time, an
    ],
 ```
 
-**DOH excerpt (License Verification page)** — `GET https://mqa-internet.doh.state.fl.us/MQASearchServices/HealthCareProviders/LicenseVerification?LicInd=32144&ProCde=1501` — retrieval `2026-10-22T23:39:09Z`
+**DOH excerpt (License Verification page — licence fields)** — `GET https://mqa-internet.doh.state.fl.us/MQASearchServices/HealthCareProviders/LicenseVerification?LicInd=32144&ProCde=1501` — retrieval `2026-10-22T23:39:09Z`
 ```html
-
-        <dt>
-            License
-        </dt>
-        <dd>
-            ME40152
-        </dd>
-
-        <!-- Covid 19 change-->
-            <!-- regular license status display-->
-            <dt>
                 <a href=https://flhealthsource.gov/files/License%20Status%20Descriptions.pdf target="_blank" class="icon glyphicon glyphicon-question-sign" style="color:#00A0AF;"></a>
                 License Status
             </dt>
@@ -164,12 +153,13 @@ License Expiration Date                </dt>
             <dd>
 ```
 
-**DOH excerpt (License Verification page — address & discipline)** — same URL — retrieval `2026-10-22T23:39:09Z`
+**DOH excerpt (License Verification page — address of record)** — same URL — retrieval `2026-10-22T23:39:09Z`
 ```html
                     <dt>
+                        Address of Record
                     </dt>
                     <dd>
-                        APOLLO BEACH, FL 33572
+                         818 Chipaway Drive
                     </dd>
                     <dt>
                     </dt>
@@ -177,13 +167,17 @@ License Expiration Date                </dt>
                         
                     </dd>
                     <dt>
-                        <a data-toggle="modal" data-target="#ControlledSubstance" style="color: #00A0AF;" class="icon glyphicon glyphicon-question-sign"> </a>
-                        Controlled Substance Prescriber 
-(for the Treatment of Chronic Non-malignant Pain)
                     </dt>
                     <dd>
-                        <span>Yes</span>
+                        
                     </dd>
+                    <dt>
+                    </dt>
+                    <dd>
+```
+
+**DOH excerpt (License Verification page — discipline & public complaint)** — same URL — retrieval `2026-10-22T23:39:09Z`
+```html
                     <dt>
                         Discipline on File
                     </dt>
@@ -316,19 +310,8 @@ License Expiration Date                </dt>
    ],
 ```
 
-**DOH excerpt (License Verification page)** — `GET https://mqa-internet.doh.state.fl.us/MQASearchServices/HealthCareProviders/LicenseVerification?LicInd=28245&ProCde=1501` — retrieval `2026-10-22T23:39:09Z`
+**DOH excerpt (License Verification page — licence fields)** — `GET https://mqa-internet.doh.state.fl.us/MQASearchServices/HealthCareProviders/LicenseVerification?LicInd=28245&ProCde=1501` — retrieval `2026-10-22T23:39:09Z`
 ```html
-
-        <dt>
-            License
-        </dt>
-        <dd>
-            ME36107
-        </dd>
-
-        <!-- Covid 19 change-->
-            <!-- regular license status display-->
-            <dt>
                 <a href=https://flhealthsource.gov/files/License%20Status%20Descriptions.pdf target="_blank" class="icon glyphicon glyphicon-question-sign" style="color:#00A0AF;"></a>
                 License Status
             </dt>
@@ -350,26 +333,31 @@ License Expiration Date                </dt>
             <dd>
 ```
 
-**DOH excerpt (License Verification page — address & discipline)** — same URL — retrieval `2026-10-22T23:39:09Z`
+**DOH excerpt (License Verification page — address of record)** — same URL — retrieval `2026-10-22T23:39:09Z`
 ```html
                     <dt>
+                        Address of Record
                     </dt>
                     <dd>
-                        BRANDON, FL 33511
+                         904 tomahawk trail
                     </dd>
                     <dt>
                     </dt>
                     <dd>
-                        
+                        Brandon
                     </dd>
                     <dt>
-                        <a data-toggle="modal" data-target="#ControlledSubstance" style="color: #00A0AF;" class="icon glyphicon glyphicon-question-sign"> </a>
-                        Controlled Substance Prescriber 
-(for the Treatment of Chronic Non-malignant Pain)
                     </dt>
                     <dd>
-                        <span>Yes</span>
+                        Florida
                     </dd>
+                    <dt>
+                    </dt>
+                    <dd>
+```
+
+**DOH excerpt (License Verification page — discipline & public complaint)** — same URL — retrieval `2026-10-22T23:39:09Z`
+```html
                     <dt>
                         Discipline on File
                     </dt>
@@ -468,19 +456,8 @@ License Expiration Date                </dt>
      "telephone_number": "813-684-0808"
 ```
 
-**DOH excerpt (License Verification page)** — `GET https://mqa-internet.doh.state.fl.us/MQASearchServices/HealthCareProviders/LicenseVerification?LicInd=28011&ProCde=1501` — retrieval `2026-10-22T23:39:09Z`
+**DOH excerpt (License Verification page — licence fields)** — `GET https://mqa-internet.doh.state.fl.us/MQASearchServices/HealthCareProviders/LicenseVerification?LicInd=28011&ProCde=1501` — retrieval `2026-10-22T23:39:09Z`
 ```html
-
-        <dt>
-            License
-        </dt>
-        <dd>
-            ME35858
-        </dd>
-
-        <!-- Covid 19 change-->
-            <!-- regular license status display-->
-            <dt>
                 <a href=https://flhealthsource.gov/files/License%20Status%20Descriptions.pdf target="_blank" class="icon glyphicon glyphicon-question-sign" style="color:#00A0AF;"></a>
                 License Status
             </dt>
@@ -502,12 +479,18 @@ License Expiration Date                </dt>
             <dd>
 ```
 
-**DOH excerpt (License Verification page — address & discipline)** — same URL — retrieval `2026-10-22T23:39:09Z`
+**DOH excerpt (License Verification page — address of record)** — same URL — retrieval `2026-10-22T23:39:09Z`
 ```html
+                    <dt>
+                        Address of Record
+                    </dt>
+                    <dd>
+                         505 EICHENFELD DRIVE
+                    </dd>
                     <dt>
                     </dt>
                     <dd>
-                        BRANDON, FL 33511
+                        SUITE 109
                     </dd>
                     <dt>
                     </dt>
@@ -515,13 +498,12 @@ License Expiration Date                </dt>
                         
                     </dd>
                     <dt>
-                        <a data-toggle="modal" data-target="#ControlledSubstance" style="color: #00A0AF;" class="icon glyphicon glyphicon-question-sign"> </a>
-                        Controlled Substance Prescriber 
-(for the Treatment of Chronic Non-malignant Pain)
                     </dt>
                     <dd>
-                        <span>No</span>
-                    </dd>
+```
+
+**DOH excerpt (License Verification page — discipline & public complaint)** — same URL — retrieval `2026-10-22T23:39:09Z`
+```html
                     <dt>
                         Discipline on File
                     </dt>
@@ -620,19 +602,8 @@ License Expiration Date                </dt>
    ],
 ```
 
-**DOH excerpt (License Verification page)** — `GET https://mqa-internet.doh.state.fl.us/MQASearchServices/HealthCareProviders/LicenseVerification?LicInd=27275&ProCde=1501` — retrieval `2026-10-22T23:39:09Z`
+**DOH excerpt (License Verification page — licence fields)** — `GET https://mqa-internet.doh.state.fl.us/MQASearchServices/HealthCareProviders/LicenseVerification?LicInd=27275&ProCde=1501` — retrieval `2026-10-22T23:39:09Z`
 ```html
-
-        <dt>
-            License
-        </dt>
-        <dd>
-            ME34836
-        </dd>
-
-        <!-- Covid 19 change-->
-            <!-- regular license status display-->
-            <dt>
                 <a href=https://flhealthsource.gov/files/License%20Status%20Descriptions.pdf target="_blank" class="icon glyphicon glyphicon-question-sign" style="color:#00A0AF;"></a>
                 License Status
             </dt>
@@ -652,10 +623,26 @@ License Expiration Date                </dt>
                     </dd>
                 <dt>
                     
+License Expiration Date                </dt>
+                <dd>
+1/31/2027                </dd>
+                <dt>
+                    License Original Issue Date
+                </dt>
+            <dd>
 ```
 
-**DOH excerpt (License Verification page — address & discipline)** — same URL — retrieval `2026-10-22T23:39:09Z`
+**DOH excerpt (License Verification page — address of record)** — same URL — retrieval `2026-10-22T23:39:09Z`
 ```html
+                    <dt>
+                        Address of Record
+                    </dt>
+                    <dd>
+                         204 Oakfield Drive
+                    </dd>
+                    <dt>
+                    </dt>
+                    <dd>
                         
                     </dd>
                     <dt>
@@ -666,26 +653,22 @@ License Expiration Date                </dt>
                     <dt>
                     </dt>
                     <dd>
-                        BRANDON, FL 33511
-                    </dd>
-                    <dt>
-                    </dt>
-                    <dd>
-                        
-                    </dd>
-                    <dt>
-                        <a data-toggle="modal" data-target="#ControlledSubstance" style="color: #00A0AF;" class="icon glyphicon glyphicon-question-sign"> </a>
-                        Controlled Substance Prescriber 
-(for the Treatment of Chronic Non-malignant Pain)
-                    </dt>
-                    <dd>
-                        <span>Yes</span>
-                    </dd>
+```
+
+**DOH excerpt (License Verification page — discipline & public complaint)** — same URL — retrieval `2026-10-22T23:39:09Z`
+```html
                     <dt>
                         Discipline on File
                     </dt>
                     <dd>
                             <span>No</span>
+                    </dd>
+                        <dt>
+                            <a data-toggle="modal" data-target="#PublicComplaint" style="color: #00A0AF;" class="icon glyphicon glyphicon-question-sign"></a>
+                            Public Complaint
+                        </dt>
+                        <dd>
+                                <span>No</span>
 ```
 
 **LEIE excerpt** — `POST https://exclusions.oig.hhs.gov/` with form fields `ctl00$cpExclusions$txtSPLastName=ZWEIBACH`, `ctl00$cpExclusions$txtSPFirstName=STEPHEN`, `__EVENTTARGET=ctl00$cpExclusions$ibSearchSP` → results page `https://exclusions.oig.hhs.gov/SearchResults.aspx` — retrieval `2026-10-22T23:39:09Z`
@@ -772,20 +755,8 @@ License Expiration Date                </dt>
     "credential": "M.D.",
 ```
 
-**DOH excerpt (License Verification page)** — `GET https://mqa-internet.doh.state.fl.us/MQASearchServices/HealthCareProviders/LicenseVerification?LicInd=25284&ProCde=1501` — retrieval `2026-10-22T23:39:09Z`
+**DOH excerpt (License Verification page — licence fields)** — `GET https://mqa-internet.doh.state.fl.us/MQASearchServices/HealthCareProviders/LicenseVerification?LicInd=25284&ProCde=1501` — retrieval `2026-10-22T23:39:09Z`
 ```html
-        </dd>
-
-        <dt>
-            License
-        </dt>
-        <dd>
-            ME32771
-        </dd>
-
-        <!-- Covid 19 change-->
-            <!-- regular license status display-->
-            <dt>
                 <a href=https://flhealthsource.gov/files/License%20Status%20Descriptions.pdf target="_blank" class="icon glyphicon glyphicon-question-sign" style="color:#00A0AF;"></a>
                 License Status
             </dt>
@@ -804,15 +775,16 @@ License Expiration Date                </dt>
                 <dt>
                     License Original Issue Date
                 </dt>
+            <dd>
 ```
 
-**DOH excerpt (License Verification page — address & discipline)** — same URL — retrieval `2026-10-22T23:39:09Z`
+**DOH excerpt (License Verification page — address of record)** — same URL — retrieval `2026-10-22T23:39:09Z`
 ```html
-                    </dd>
                     <dt>
+                        Address of Record
                     </dt>
                     <dd>
-                        BRANDON, FL 33511
+                         119 Oakfield Dr
                     </dd>
                     <dt>
                     </dt>
@@ -820,13 +792,17 @@ License Expiration Date                </dt>
                         
                     </dd>
                     <dt>
-                        <a data-toggle="modal" data-target="#ControlledSubstance" style="color: #00A0AF;" class="icon glyphicon glyphicon-question-sign"> </a>
-                        Controlled Substance Prescriber 
-(for the Treatment of Chronic Non-malignant Pain)
                     </dt>
                     <dd>
-                        <span>Yes</span>
+                        
                     </dd>
+                    <dt>
+                    </dt>
+                    <dd>
+```
+
+**DOH excerpt (License Verification page — discipline & public complaint)** — same URL — retrieval `2026-10-22T23:39:09Z`
+```html
                     <dt>
                         Discipline on File
                     </dt>
@@ -838,6 +814,7 @@ License Expiration Date                </dt>
                             Public Complaint
                         </dt>
                         <dd>
+                                <span>No</span>
 ```
 
 **LEIE excerpt** — `POST https://exclusions.oig.hhs.gov/` with form fields `ctl00$cpExclusions$txtSPLastName=HILLMAN`, `ctl00$cpExclusions$txtSPFirstName=JAMES`, `__EVENTTARGET=ctl00$cpExclusions$ibSearchSP` → results page `https://exclusions.oig.hhs.gov/SearchResults.aspx` — retrieval `2026-10-22T23:39:09Z`
